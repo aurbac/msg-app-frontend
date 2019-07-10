@@ -43,6 +43,8 @@ npm install
 npm install --save aws-amplify aws-amplify-angular
 ```
 
+Edit the file **src/environments/environment.prod.ts** and change the value **path** with to your load balancer DNS Name and save the file, use the editor included in Cloud9 environment.
+
 ## Initialize amplify project
 
 ``` bash
