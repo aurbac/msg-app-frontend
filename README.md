@@ -16,7 +16,7 @@ aws configure
 
 ## Install global dependencies
 
-Update Node.js to the minimal version of 8.
+Update Node.js to the minimal version of 10.
 
 ``` bash
 nvm i v10
@@ -57,7 +57,6 @@ amplify init
 
 ? Choose the type of app that you're building **javascript**
 
-
 Please tell us about your project
 
 ? What javascript framework are you using **angular**
@@ -72,11 +71,9 @@ Please tell us about your project
 
 Using default provider  awscloudformation
 
-
 For more information on AWS Profiles, see:
 
 https://docs.aws.amazon.com/cli/latest/userguide/cli-multiple-profiles.html
-
 
 ? Do you want to use an AWS profile? **Yes**
 
