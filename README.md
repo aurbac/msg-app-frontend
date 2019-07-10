@@ -50,21 +50,36 @@ amplify init
 ```
 
 ? Enter a name for the project **msg-app-frontend**
+
 ? Enter a name for the environment **dev**
+
 ? Choose your default editor: **Sublime Text**
+
 ? Choose the type of app that you're building **javascript**
+
+
 Please tell us about your project
+
 ? What javascript framework are you using **angular**
+
 ? Source Directory Path:  **src**
+
 ? Distribution Directory Path: **dist/frontend**
+
 ? Build Command:  **npm run-script build**
+
 ? Start Command: **ng serve**
+
 Using default provider  awscloudformation
 
+
 For more information on AWS Profiles, see:
+
 https://docs.aws.amazon.com/cli/latest/userguide/cli-multiple-profiles.html
 
+
 ? Do you want to use an AWS profile? **Yes**
+
 ? Please choose the profile you want to use **default**
 
 ## Add hosting and publish
@@ -74,8 +89,11 @@ amplify add hosting
 ```
 
 ? Select the environment setup: **DEV (S3 only with HTTP)**
+
 ? hosting bucket name **msg-app-frontend-20190709233955-hostingbucket** (Use default name)
+
 ? index doc for the website **index.html**
+
 ? error doc for the website **index.html**
 
 ``` bash
