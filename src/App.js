@@ -9,7 +9,7 @@ import Container from '@material-ui/core/Container';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 
-const ENDPOINT = "<DNS_NAME_BALANCER>/api/";
+const ENDPOINT = "<DNS_NAME_CLOUDFRONT>/api/";
 
 class App extends React.Component {
   constructor(props) {
