@@ -9,7 +9,7 @@ import Container from '@material-ui/core/Container';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 
-const ENDPOINT = "https://d1o3nf9kb1wa74.cloudfront.net/api/";
+const ENDPOINT = "https://d1o3nf9kbwa74.cloudfront.net/api/";
 
 class App extends React.Component {
   constructor(props) {
@@ -56,7 +56,11 @@ class App extends React.Component {
   render() {
     const { error, isLoaded, messages, token } = this.state;
     if (error) {
-      return <div>Error: {error.message}</div>;
+      return <div>
+        <Typography variant="h4" align="center" gutterBottom>
+          Welcome to Frontend!
+        </Typography>
+      </div>;
     } else if (!isLoaded) {
       return <div>Loading...</div>;
     } else {
