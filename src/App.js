@@ -10,7 +10,7 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import Box from '@mui/material/Box';
 
-const ENDPOINT = "https://d2aw2eadrcqlj3.cloudfront.net/api/";
+const ENDPOINT = "https://<DNS_NAME_CLOUDFRONT>/api/";
 
 class App extends React.Component {
   constructor(props) {
